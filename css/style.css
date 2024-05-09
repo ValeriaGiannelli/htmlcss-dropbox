@@ -12,14 +12,6 @@ body{
 
 
 /* HEADER */
-header{
-    
-
-    /* DEBUG */
-    background-color: blueviolet;
-}
-
-
 /* menu navigazione */
 
 /* contenitore del menu navigazione */
@@ -28,19 +20,19 @@ header{
     height: 80px;
     display: flex;
     align-items: center;
-
-    /* DEBUG */
-    background-color: aqua;
+    font-size: 14px;
 }
 
 /* logo a sinistra */
 .logo{
     width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    /* DEBUG */
-    background-color: blanchedalmond;
-    border: 1px dotted black;
-    height: 80px;
+.logo img{
+    width: 80%;
 }
 
 /* parte centrale del menu */
@@ -49,30 +41,29 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* DEBUG */
-    background-color: blanchedalmond;
-    border: 1px dotted black;
-    height: 80px;
+    padding: 0 20px;
 }
 
+/* contenitore dei link di navigazione */
 .link-nav nav{
-    width: 50%;
     display: flex;
     align-items: center;
-
-    /* DEBUG */
-    background-color: rgb(190, 38, 33);
-    border: 1px dotted black;
-    height: 80px;
 }
 
+/* unorder list */
 .link-nav nav ul{
     display: flex;
     gap: 20px;
     list-style-type: none;
 }
 
+/* tag A dei link */
+.link-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+/* caratteristica parte destra del nav */
 .right{
     justify-content: end;
 }
@@ -80,12 +71,17 @@ header{
 /* bottoni di Accedi e Inizia */
 .login{
     width: 10%;
-
-    /* DEBUG */
-    background-color: blanchedalmond;
-    border: 1px dotted black;
-    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.button{
+    color: white;
+    background-color: #3c4cfe;
+    padding: 5px 15px;
+}
+
 
 
 /* sezione Jumbo */
