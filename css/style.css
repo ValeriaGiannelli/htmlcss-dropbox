@@ -141,6 +141,18 @@ h1{
 
 
 /* MAIN */
+.container{
+    width: 70%;
+    margin: 0 auto;
+
+    /* DEBUG */
+    background-color: brown;
+    height: 2000px;
+}
+
+
+
+
 
 
 /* FOOTER */
