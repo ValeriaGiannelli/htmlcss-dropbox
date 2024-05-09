@@ -148,126 +148,188 @@ h1{
 
     /* DEBUG */
     background-color: brown;
-    height: 2000px;
+    max-height: 2000px;
 }
 
-    /* SEZIONI PIANI BUSINESS */
+/* SEZIONI PIANI BUSINESS */
 
-    /* simulazione del radio button */
-    .radio-button{
-        width: 100%;
+/* simulazione del radio button */
+.radio-button{
+    width: 100%;
 
-        /* DEBUG */
-        height: 40px;
-        background-color: coral;
-    }
+    /* DEBUG */
+    height: 40px;
+    background-color: coral;
+}
 
-    /* container delle 3 card piano business */
-    #card-container{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 40PX;
+/* container delle 3 card piano business */
+#card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40PX;
 
-        /* DEBUG */
-        height: 500px;
-        background-color: #b7cee7;
-    }
+    /* DEBUG */
+    height: 500px;
+    background-color: #b7cee7;
+}
 
-    /* struttua e info delle tre card */
-    .card{
-        width: 32%;
+/* struttua e info delle tre card */
+.card{
+    width: 32%;
 
-        /* DEBUG */
-        background-color: cornflowerblue;
-    }
+    /* DEBUG */
+    background-color: cornflowerblue;
+}
 
 
-    /* struttura e info card team full width */
-    .card-team{
-        width: 100%;
-        margin-bottom: 100px;
+/* struttura e info card team full width */
+.card-team{
+    width: 100%;
+    margin-bottom: 100px;
 
-        /* DEBUG */
-        height: 200PX;
-        background-color: cornflowerblue;
-    }
+    /* DEBUG */
+    height: 200PX;
+    background-color: cornflowerblue;
+}
 
-    /* SEZIONI PARTNER */
-    #partner{
-        width: 100%;
-        display: flex;
+/* SEZIONI PARTNER */
+#partner{
+    width: 100%;
+    display: flex;
 
-        /* DEBUG */
-        height: 400px;
-        background-color: cornflowerblue;
-    }
+    /* DEBUG */
+    height: 400px;
+    background-color: cornflowerblue;
+}
 
-    #partner .imagine{
-        width: 60%;
+#partner .imagine{
+    width: 60%;
 
-        /* DEBUG */
-        background-color: burlywood;
-        height: 350px;
-        border: 1px dotted black;
-    }
+    /* DEBUG */
+    background-color: burlywood;
+    height: 350px;
+    border: 1px dotted black;
+}
 
-    #partner .text{
-        width: 40%;
+#partner .text{
+    width: 40%;
 
-        /* DEBUG */
-        background-color: burlywood;
-        height: 350px;
-        border: 1px dotted black;
-    }
+    /* DEBUG */
+    background-color: burlywood;
+    height: 350px;
+    border: 1px dotted black;
+}
+
+
+/* SEZIONE OPERAZIONI BUSINESS */
+#container-operation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    /* DEBUG */
+    height: 500px;
+}
+
+#container-operation .card{
+    /* debug */
+    height: 250px;
+    border: 1px dotted black;
+}
+
+/* SEZIONE TEAM */
+#partners{
+    width: 100%;
+
+    /* DEBUG */
+    height: 500px;
+    background-color: chocolate;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+
+    /* debug */
+    background-color: chartreuse;
+    height: 500px;
+}
+
+.item{
+    width: 50%;
+    height: 50%;
+
+    /* debug */
+    background-color: blue;
+    border: 1px solid black;
+}
+
+
+/* SEZIONE PROVA GRATUITA */
+#free-trial{
+    background-color: #b7cee7;
     
+    /* DEBUG */
+    min-height: 300px;
+}
 
-    /* SEZIONE OPERAZIONI BUSINESS */
-    #container-operation{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+#free-trial .container{
+    display: flex;
+}
 
-        /* DEBUG */
-        height: 500px;
-    }
+#free-trial .title{
+    width: 60%;
 
-    #container-operation .card{
-        /* debug */
-        height: 250px;
-        border: 1px dotted black;
-    }
+    /* DEBUG */
+    min-height: 300px;
+    background-color: blue;
+    border: 1px solid black;
+}
 
-    /* SEZIONE TEAM */
-    #partners{
-        width: 100%;
+#free-trial .button{
+    width: 40%;
 
-        /* DEBUG */
-        height: 500px;
-        background-color: chocolate;
-    }
-
-    .col-33{
-        width: calc(100% / 3);
-        display: flex;
-        flex-wrap: wrap;
-
-        /* debug */
-        background-color: chartreuse;
-        height: 500px;
-    }
-
-    .item{
-        width: 50%;
-        height: 50%;
-
-        /* debug */
-        background-color: blue;
-        border: 1px solid black;
-    }
+    /* DEBUG */
+    min-height: 300px;
+    background-color: blue;
+    border: 1px solid black;
+}
 
 
+/* SEZIONE FAQ */
+#faq{
+    margin: 50px 0;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+
+    /* DEBUG */
+    height: 100px;
+    background-color: blue;
+}
+
+.question{
+    width: 90%;
+
+    /* DEBUG */
+    height: 100px;
+    background-color: rgb(122, 122, 194);
+    border: 1px solid black;
+}
+
+.accordion{
+    width: 10%;
+
+    /* DEBUG */
+    height: 100px;
+    background-color: rgb(122, 122, 194);
+    border: 1px solid black;
+}
 
 /* FOOTER */
 
