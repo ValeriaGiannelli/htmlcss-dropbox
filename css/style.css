@@ -151,42 +151,93 @@ h1{
     height: 2000px;
 }
 
-/* simulazione del radio button */
-.radio-button{
-    width: 100%;
+    /* SEZIONI PIANI BUSINESS */
 
-    /* DEBUG */
-    height: 40px;
-    background-color: coral;
-}
+    /* simulazione del radio button */
+    .radio-button{
+        width: 100%;
 
-/* container delle 3 card piano business */
-#card-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40PX;
+        /* DEBUG */
+        height: 40px;
+        background-color: coral;
+    }
 
-    /* DEBUG */
-    height: 500px;
-    background-color: #b7cee7;
-}
+    /* container delle 3 card piano business */
+    #card-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40PX;
 
-.card{
-    width: 32%;
+        /* DEBUG */
+        height: 500px;
+        background-color: #b7cee7;
+    }
 
-    /* DEBUG */
-    background-color: cornflowerblue;
-}
+    /* struttua e info delle tre card */
+    .card{
+        width: 32%;
 
-.card-team{
-    width: 100%;
+        /* DEBUG */
+        background-color: cornflowerblue;
+    }
 
-    /* DEBUG */
-    height: 200PX;
-    background-color: cornflowerblue;
-}
 
+    /* struttura e info card team full width */
+    .card-team{
+        width: 100%;
+        margin-bottom: 100px;
+
+        /* DEBUG */
+        height: 200PX;
+        background-color: cornflowerblue;
+    }
+
+    /* SEZIONI PARTNER */
+    #partner{
+        width: 100%;
+        display: flex;
+
+        /* DEBUG */
+        height: 400px;
+        background-color: cornflowerblue;
+    }
+
+    #partner .imagine{
+        width: 60%;
+
+        /* DEBUG */
+        background-color: burlywood;
+        height: 350px;
+        border: 1px dotted black;
+    }
+
+    #partner .text{
+        width: 40%;
+
+        /* DEBUG */
+        background-color: burlywood;
+        height: 350px;
+        border: 1px dotted black;
+    }
+    
+
+    /* SEZIONE OPERAZIONI BUSINESS */
+    #container-operation{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        /* DEBUG */
+        height: 500px;
+    }
+
+    #container-operation .card{
+        /* debug */
+        height: 250px;
+        border: 1px dotted black;
+    }
 
 
 /* FOOTER */
