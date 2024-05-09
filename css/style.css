@@ -16,7 +16,6 @@ header{
     
 
     /* DEBUG */
-    height: 80px;
     background-color: blueviolet;
 }
 
@@ -145,3 +144,44 @@ h1{
 
 
 /* FOOTER */
+
+footer{
+    background-color: black;
+
+    /* DEBUG */
+    height: 400px;
+}
+
+footer>div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    /* DEBUG */
+    background-color: aquamarine;
+    height: 200px;
+    border: 1px dotted black;
+}
+
+.col{
+    width: 18%;
+    padding: 20px 0;
+
+    /* DEBUG */
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.language{
+    align-items: end;
+}
+
+.language-debug{
+    margin-top: 50px;
+
+    /* DEBUG */
+    height: 50PX;
+    width: 100px;
+    background-color: blue;
+}
