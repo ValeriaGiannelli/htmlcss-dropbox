@@ -239,6 +239,35 @@ h1{
         border: 1px dotted black;
     }
 
+    /* SEZIONE TEAM */
+    #partners{
+        width: 100%;
+
+        /* DEBUG */
+        height: 500px;
+        background-color: chocolate;
+    }
+
+    .col-33{
+        width: calc(100% / 3);
+        display: flex;
+        flex-wrap: wrap;
+
+        /* debug */
+        background-color: chartreuse;
+        height: 500px;
+    }
+
+    .item{
+        width: 50%;
+        height: 50%;
+
+        /* debug */
+        background-color: blue;
+        border: 1px solid black;
+    }
+
+
 
 /* FOOTER */
 
