@@ -141,6 +141,7 @@ h1{
 
 
 /* MAIN */
+/* container generale delle sezioni */
 .container{
     width: 70%;
     margin: 0 auto;
@@ -150,8 +151,41 @@ h1{
     height: 2000px;
 }
 
+/* simulazione del radio button */
+.radio-button{
+    width: 100%;
 
+    /* DEBUG */
+    height: 40px;
+    background-color: coral;
+}
 
+/* container delle 3 card piano business */
+#card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40PX;
+
+    /* DEBUG */
+    height: 500px;
+    background-color: #b7cee7;
+}
+
+.card{
+    width: 32%;
+
+    /* DEBUG */
+    background-color: cornflowerblue;
+}
+
+.card-team{
+    width: 100%;
+
+    /* DEBUG */
+    height: 200PX;
+    background-color: cornflowerblue;
+}
 
 
 
