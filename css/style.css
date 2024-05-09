@@ -20,6 +20,9 @@ header{
     background-color: blueviolet;
 }
 
+
+/* menu navigazione */
+
 /* contenitore del menu navigazione */
 .menu-nav{
     width: 100%;
@@ -84,6 +87,59 @@ header{
     border: 1px dotted black;
     height: 80px;
 }
+
+
+/* sezione Jumbo */
+.jumbo{
+    background-color: #b7cee7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* DEBUG */
+    height: 500px;
+}
+
+.jumbo>div{
+    width: 80%;
+
+    /* DEBUG */
+    background-color: aquamarine;
+    height: 450px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+.info-jumbo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    /* DEBUG */
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+
+.text-jumbo{
+    width: 40%;
+
+    /* DEBUG */
+    height: 300px;
+    background-color: rgb(146, 88, 200);
+}
+
+.img-jumbo{
+    width: 60%;
+
+    /* DEBUG */
+    height: 300px;
+    background-color: blueviolet;
+}
+
+
 
 /* MAIN */
 
