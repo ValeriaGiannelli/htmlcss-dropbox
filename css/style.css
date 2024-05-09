@@ -12,7 +12,6 @@ body{
 
 
 /* HEADER */
-/* menu navigazione */
 
 /* contenitore del menu navigazione */
 .menu-nav{
@@ -80,6 +79,7 @@ body{
     color: white;
     background-color: #3c4cfe;
     padding: 5px 15px;
+    font-size: 14px;
 }
 
 
@@ -90,50 +90,51 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* DEBUG */
-    height: 500px;
 }
 
 .jumbo>div{
     width: 80%;
-
-    /* DEBUG */
-    background-color: aquamarine;
-    height: 450px;
 }
 
 h1{
-    padding-bottom: 20px;
+    padding: 60px 0 20px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .info-jumbo{
     width: 100%;
     display: flex;
     align-items: center;
-
-    /* DEBUG */
-    height: 400px;
-    background-color: blanchedalmond;
 }
+
 
 
 .text-jumbo{
     width: 40%;
+}
 
-    /* DEBUG */
-    height: 300px;
-    background-color: rgb(146, 88, 200);
+.text-jumbo p{
+    margin-bottom: 25px;
+}
+
+.stand-alone{
+    display: block;
+    margin: 20px 0 70px;
 }
 
 .img-jumbo{
     width: 60%;
-
-    /* DEBUG */
-    height: 300px;
-    background-color: blueviolet;
 }
 
+.img-jumbo img{
+    width: 100%;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+    color: black;
+}
 
 
 /* MAIN */
