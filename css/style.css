@@ -20,6 +20,10 @@ body{
     display: flex;
     align-items: center;
     font-size: 14px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 /* logo a sinistra */
@@ -94,6 +98,7 @@ body{
 
 .jumbo>div{
     width: 80%;
+    padding-top: 80px;
 }
 
 h1{
