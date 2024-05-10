@@ -23,7 +23,6 @@ h3{
     font-size: 18px;
 }
 
-
 /* HEADER */
 
 /* contenitore del menu navigazione */
@@ -468,9 +467,6 @@ figure li{
 
 footer{
     background-color: black;
-
-    /* DEBUG */
-    height: 400px;
 }
 
 footer>div{
@@ -478,28 +474,34 @@ footer>div{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
-    /* DEBUG */
-    background-color: aquamarine;
-    height: 200px;
-    border: 1px dotted black;
 }
 
 .col{
     width: 18%;
-    padding: 20px 0;
+    padding: 40px 0;
+}
 
-    /* DEBUG */
-    height: 200px;
-    background-color: blueviolet;
+.ul-footer{
+    margin: 0; 
+    color: white;
+}
+
+.ul-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
 }
 
 .language{
-    align-items: end;
+    display: block;
+}
+
+.language .break{
+    width: 100px;
 }
 
 .language-debug{
-    margin-top: 50px;
+    margin-top: 30px;
 
     /* DEBUG */
     height: 50PX;
