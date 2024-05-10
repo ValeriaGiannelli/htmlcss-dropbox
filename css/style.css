@@ -94,11 +94,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .jumbo>div{
     width: 80%;
-    padding-top: 80px;
 }
 
 h1{
@@ -154,14 +154,31 @@ h1{
 }
 
 /* SEZIONI PIANI BUSINESS */
+#business-plan{
+    padding-top: 100px;
+}
+
+#business-plan h2{
+    margin-bottom: 40px;
+}
+
 
 /* simulazione del radio button */
 .radio-button{
     width: 100%;
-
+    font-size: 12px;
+    margin-bottom:40px;;
     /* DEBUG */
-    height: 40px;
+    
     background-color: coral;
+}
+
+.fa-circle-dot{
+    color: blue;
+}
+
+.radio-button span{
+    margin-right: 50px;
 }
 
 /* container delle 3 card piano business */
