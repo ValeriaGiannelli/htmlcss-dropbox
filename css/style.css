@@ -10,6 +10,10 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
 
 /* HEADER */
 
@@ -57,7 +61,6 @@ body{
 .link-nav nav ul{
     display: flex;
     gap: 20px;
-    list-style-type: none;
 }
 
 /* tag A dei link */
@@ -191,18 +194,12 @@ h1{
     justify-content: space-between;
     margin-bottom: 40PX;
     font-size: 12px;
-
-    /* DEBUG */
-    height: 500px;
-    background-color: #b7cee7;
 }
 
 /* struttua e info delle tre card */
 .card{
     width: 32%;
-
-    /* DEBUG */
-    background-color: cornflowerblue;
+    border: 1px solid gray;
 }
 
 /* titolo card */
@@ -212,12 +209,13 @@ h1{
     align-items: center;
     gap: 5px;
     padding: 10px 0;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    
 }
 
 /* informazioni card */
 .card-info{
-    padding: 20px 15px;
+    padding: 30px 15px;
 }
 
 .title-cost{
@@ -228,10 +226,47 @@ h1{
 
 }
 
-.card-specific{
+
+.card-button{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.order-now{
+    padding: 30px 0;
+}
+
+/* linietta di stacco */
+.break{
+    width: 50px;
+    border-top: 1px solid gray;
+}
+
+
+figure{
+    margin-top: 40px;
+}
+
+/* titolo della lista */
+figcaption{
     margin-bottom: 10px;
 }
 
+/* spazio tra le liste */
+figure li{
+    margin-bottom: 10px;
+}
+
+/* caratteristica di font awesome */
+.fa-ul {
+    list-style-type: none;
+    margin-left: var(--fa-li-margin, 1.5em);
+    padding-left: 0;
+}
+
+.fa-check{
+    color: blue;
+}
 
 /* struttura e info card team full width */
 .card-team{
