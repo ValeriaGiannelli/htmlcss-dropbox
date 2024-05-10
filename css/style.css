@@ -160,10 +160,6 @@ h1{
 .container{
     width: 70%;
     margin: 0 auto;
-
-    /* DEBUG */
-    background-color: brown;
-    max-height: 5000px;
 }
 
 /* SEZIONI PIANI BUSINESS */
@@ -439,34 +435,33 @@ figure li{
 
 /* SEZIONE FAQ */
 #faq{
-    margin: 50px 0;
+    margin: 100px 0;
+}
+
+#faq h2{
+    padding-bottom: 40px;
+    margin: 0;
+    border-bottom: 1px solid gray;
 }
 
 .row{
     width: 100%;
     display: flex;
-
-    /* DEBUG */
-    height: 100px;
-    background-color: blue;
+    border-bottom: 1px solid black;
 }
 
 .question{
     width: 90%;
-
-    /* DEBUG */
-    height: 100px;
-    background-color: rgb(122, 122, 194);
-    border: 1px solid black;
+    font-size: 12px;
+    padding: 20px;
+    font-weight: bold;
 }
 
 .accordion{
     width: 10%;
-
-    /* DEBUG */
-    height: 100px;
-    background-color: rgb(122, 122, 194);
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* FOOTER */
