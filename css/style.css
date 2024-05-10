@@ -173,13 +173,16 @@ h1{
     background-color: coral;
 }
 
+/* radio button selezinato */
 .fa-circle-dot{
     color: blue;
 }
 
+/* spazio tra i due radio button */
 .radio-button span{
     margin-right: 50px;
 }
+
 
 /* container delle 3 card piano business */
 #card-container{
@@ -187,6 +190,7 @@ h1{
     display: flex;
     justify-content: space-between;
     margin-bottom: 40PX;
+    font-size: 12px;
 
     /* DEBUG */
     height: 500px;
@@ -199,6 +203,33 @@ h1{
 
     /* DEBUG */
     background-color: cornflowerblue;
+}
+
+/* titolo card */
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+    border: 1px solid gray;
+}
+
+/* informazioni card */
+.card-info{
+    padding: 20px 15px;
+}
+
+.title-cost{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+
+}
+
+.card-specific{
+    margin-bottom: 10px;
 }
 
 
