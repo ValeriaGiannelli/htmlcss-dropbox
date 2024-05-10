@@ -14,6 +14,11 @@ ul{
     list-style-type: none;
 }
 
+h2{
+    margin-bottom: 40px;
+}
+
+
 h3{
     font-size: 18px;
 }
@@ -164,10 +169,6 @@ h1{
 /* SEZIONI PIANI BUSINESS */
 #business-plan{
     padding-top: 100px;
-}
-
-#business-plan h2{
-    margin-bottom: 40px;
 }
 
 
@@ -335,16 +336,23 @@ figure li{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
 
-    /* DEBUG */
-    height: 500px;
+.card img{
+    width: 100%;
+
 }
 
 #container-operation .card{
-    /* debug */
-    height: 250px;
-    border: 1px dotted black;
+    border: none;
+    margin-bottom: 50px;
 }
+
+#container-operation h3{
+    margin-bottom: 20px;
+}
+
+
 
 /* SEZIONE TEAM */
 #partners{
