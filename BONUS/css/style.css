@@ -1,0 +1,576 @@
+/* regole generali */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+
+h3{
+    font-size: 18px;
+}
+
+/* HEADER */
+
+/* contenitore del menu navigazione */
+.menu-nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    background-color: white;
+    border-bottom: 1px solid rgb(166, 156, 156);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+
+/* logo a sinistra */
+.logo{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 80%;
+}
+
+/* parte centrale del menu */
+.link-nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* contenitore dei link di navigazione */
+.link-nav nav{
+    display: flex;
+    align-items: center;
+}
+
+/* unorder list */
+.link-nav nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+.link-nav nav li{
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.link-nav nav li:hover{
+    border-bottom: 2px solid black;
+}
+
+/* tag A dei link */
+.menu-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+/* caratteristica parte destra del nav */
+.right{
+    justify-content: end;
+}
+
+/* bottoni di Accedi e Inizia */
+.login{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.button{
+    color: white;
+    background-color: #3c4cfe;
+    padding: 5px 15px;
+    font-size: 12px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+
+
+/* sezione Jumbo */
+.jumbo{
+    background-color: white;
+    height: calc(100vh - 80px);
+}
+
+#jumbo-center{
+    width: 100%;
+    background-color: #b7cee7;
+    margin-top: 80px;
+}
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    padding: 60px 0 20px;
+    font-size: 70px;
+}
+
+.info-jumbo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.text-jumbo{
+    width: 40%;
+}
+
+.text-jumbo p{
+    margin-bottom: 25px;
+}
+
+.stand-alone{
+    display: block;
+    margin: 20px 0 70px;
+}
+
+
+.img-jumbo{
+    width: 60%;
+}
+
+.img-jumbo img{
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+    color: black;
+}
+
+
+/* MAIN */
+/* container generale delle sezioni */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* SEZIONI PIANI BUSINESS */
+#business-plan{
+    padding-top: 100px;
+}
+
+
+/* simulazione del radio button */
+.radio-button{
+    width: 100%;
+    font-size: 12px;
+    margin-bottom:40px;;
+}
+
+.radio-button I:hover{
+    cursor: pointer;
+}
+
+/* radio button selezinato */
+.fa-circle-dot{
+    color: blue;
+}
+
+/* spazio tra i due radio button */
+.radio-button span{
+    margin-right: 50px;
+}
+
+
+/* container delle 3 card piano business */
+#card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40PX;
+    font-size: 12px;
+}
+
+/* struttua e info delle tre card */
+.card{
+    width: 32%;
+    border: 1px solid gray;
+}
+
+/* titolo card */
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+    
+}
+
+/* informazioni card */
+.card-info{
+    padding: 30px 15px;
+}
+
+.title-cost{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.card-button{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.order-now{
+    padding: 30px 0;
+}
+
+/* linietta di stacco */
+.break{
+    width: 50px;
+    border-top: 1px solid gray;
+}
+
+
+figure{
+    margin-top: 40px;
+}
+
+/* titolo della lista */
+figcaption{
+    margin-bottom: 10px;
+}
+
+/* spazio tra le liste */
+figure li{
+    margin-bottom: 10px;
+}
+
+/* caratteristica di font awesome */
+.fa-ul {
+    list-style-type: none;
+    margin-left: var(--fa-li-margin, 1.5em);
+    padding-left: 0;
+}
+
+.fa-check{
+    color: blue;
+}
+
+/* struttura e info card team full width */
+.card-team{
+    width: 100%;
+    margin-bottom: 100px;
+    font-size: 12px;
+    border: 1px solid gray;
+}
+
+.card-team-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin: 20px auto;
+}
+
+.card-team-info div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-team-info div span{
+    margin-bottom: 20px;
+}
+
+
+/* SEZIONI PARTNER */
+#partner{
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+/* quanto prende l'immagine */
+#partner .imagine{
+    width: 60%;
+}
+
+.imagine img{
+    width: 100%;
+}
+
+/* quanto prende il testo */
+#partner .text{
+    width: 40%;
+    padding: 30px 20px;
+}
+
+.text h3, .text p{
+    margin-bottom: 20px;
+}
+
+.text span.button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+
+/* SEZIONE OPERAZIONI BUSINESS */
+#container-operation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card img{
+    width: 100%;
+
+}
+
+#container-operation .card{
+    border: none;
+    margin-bottom: 50px;
+}
+
+#container-operation h3{
+    margin-bottom: 20px;
+}
+
+
+
+/* SEZIONE TEAM*/
+#discover-costumer{
+    margin-bottom: 100px;
+}
+
+/* team 2.0 */
+#partners{
+    width: 100%;
+    display: flex;
+    background-color: #f5f5f5;
+    
+}
+
+.col-33{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item svg, .item img{
+    width: 50%;
+    fill: white;
+}
+
+.bg-green{
+    background-color: #a4d59b;
+}
+
+.bg-bordeaux{
+    background-color: #5e082b;
+}
+
+.bg-azure{
+    background-color: #348ece;
+}
+
+.bg-orange{
+    background-color: #f72823;
+}
+
+
+.selected{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.col-33-center{
+    display: block;
+    padding: 0 20px;
+}
+
+.col-33-center svg{
+    width: 50%;
+}
+
+.col-33-center p{
+    margin: 20px 0;
+}
+
+.bg-red{
+    background-color: #ce1223;
+}
+
+.bg-gray{
+    background-color: #b7cee7;
+}
+
+.bg-blue{
+    background-color: #1e1481;
+}
+
+.bg-yellow{
+    background-color: #f9dd34;
+}
+
+/* SEZIONE PROVA GRATUITA */
+#free-trial{
+    background-color: #b7cee7;
+}
+
+#free-trial .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#free-trial .card-team-info{
+    margin: 80px 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#free-trial h2{
+    margin-bottom: 0;
+    color: #5e082b;
+}
+
+
+
+.button-white{
+    background-color: white;
+    color: black;
+}
+
+
+/* SEZIONE FAQ */
+#faq{
+    margin: 100px 0;
+}
+
+#faq h2{
+    padding-bottom: 40px;
+    margin: 0;
+    border-bottom: 1px solid gray;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.question{
+    width: 90%;
+    font-size: 12px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.accordion{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+}
+
+footer>div{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    width: 18%;
+    padding: 40px 0;
+}
+
+.ul-footer{
+    margin: 0; 
+    color: white;
+}
+
+.ul-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.language{
+    display: block;
+}
+
+.language .break{
+    width: 100px;
+}
+
+.select-language{
+    padding: 30px 0;
+    font-size: 12px;
+    color: gray;
+}
+
+.select-language:hover{
+    cursor: pointer;
+}
+
+.fa-earth-europe{
+    padding-right: 5px;
+}
+
+.fa-chevron-up{
+    padding-left: 5px;
+}
