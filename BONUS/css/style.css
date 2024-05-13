@@ -81,10 +81,15 @@ h3{
     height: 80px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .link-nav nav li:hover{
     border-bottom: 2px solid black;
+}
+
+.link-nav nav li:hover .dropdown-content{
+    display: block;
 }
 
 /* tag A dei link */
@@ -97,6 +102,28 @@ h3{
 .right{
     justify-content: end;
 }
+
+
+.dropdown-content{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-color: white;
+    min-width: 200px;
+    padding: 10px 0;
+    display: none;
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 10px 20px;
+}
+
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+
+
 
 /* bottoni di Accedi e Inizia */
 .login{
@@ -538,6 +565,7 @@ figure li{
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 1;
 }
 
 
