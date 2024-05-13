@@ -126,7 +126,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    height: calc(100vh - 80px);
 }
 
 .jumbo>div{
@@ -135,8 +135,7 @@ h3{
 
 h1{
     padding: 60px 0 20px;
-    font-size: 40px;
-    font-weight: 900;
+    font-size: 70px;
 }
 
 .info-jumbo{
