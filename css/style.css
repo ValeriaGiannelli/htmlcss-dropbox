@@ -377,16 +377,51 @@ figure li{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* debug */
-    background-color: blue;
-    border: 1px solid black;
 }
 
-.item svg{
+.item svg, .item img{
     width: 50%;
     fill: white;
 }
+
+.bg-green{
+    background-color: #a4d59b;
+}
+
+.bg-bordeaux{
+    background-color: #5e082b;
+}
+
+.bg-azure{
+    background-color: #348ece;
+}
+
+.bg-orange{
+    background-color: #f72823;
+}
+
+.bg-red{
+    background-color: #ce1223;
+}
+
+.bg-gray{
+    background-color: #b7cee7;
+}
+
+.bg-blue{
+    background-color: #1e1481;
+}
+
+.bg-yellow{
+    background-color: #f9dd34;
+}
+
+.selected{
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
 
 .col-33-center{
     display: block;
