@@ -500,12 +500,19 @@ figure li{
     border-bottom: 1px solid gray;
 }
 
-.row{
-    width: 100%;
-    display: flex;
+/* sezione che comeprende domanda e risposta */
+.row-qea{
     border-bottom: 1px solid black;
 }
 
+/* riga della domanda */
+.row{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+/* caratteristiche della domanda */
 .question{
     width: 90%;
     font-size: 12px;
@@ -518,6 +525,37 @@ figure li{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.accordion .fa-chevron-up{
+    position: absolute;
+    padding-left: 0;
+    display: none;
+}
+
+.accordion-up{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.row-qea:hover .answer, .row-qea:hover .accordion .fa-chevron-up{
+    display: block;
+}
+
+.row-qea:hover .accordion .fa-chevron-down{
+    display: none;
+}
+
+.answer{
+    display: none;
+}
+
+.answer .question{
+    padding-top: 0;
+    font-weight: 400;
 }
 
 /* FOOTER */
