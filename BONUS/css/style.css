@@ -420,6 +420,7 @@ figure li{
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
+    aspect-ratio: 1 / 1;
 }
 
 .item{
@@ -428,6 +429,7 @@ figure li{
     display: flex;
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1 / 1;
 }
 
 .item svg, .item img{
@@ -460,6 +462,7 @@ figure li{
 .col-33-center{
     display: block;
     padding: 0 20px;
+    overflow-y: auto;
 }
 
 .col-33-center svg{
