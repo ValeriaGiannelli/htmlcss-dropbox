@@ -33,6 +33,7 @@ h3{
     align-items: center;
     font-size: 14px;
     background-color: white;
+    border-bottom: 2px solid rgb(166, 156, 156);
     position: fixed;
     top: 0;
     left: 0;
@@ -45,6 +46,10 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.logo:hover{
+    cursor: pointer;
 }
 
 .logo img{
@@ -73,7 +78,7 @@ h3{
 }
 
 /* tag A dei link */
-.link-nav a{
+.menu-nav a{
     color: black;
     text-decoration: none;
 }
@@ -91,11 +96,16 @@ h3{
     align-items: center;
 }
 
+
 .button{
     color: white;
     background-color: #3c4cfe;
     padding: 5px 15px;
     font-size: 12px;
+}
+
+.button:hover{
+    cursor: pointer;
 }
 
 
@@ -539,4 +549,16 @@ footer>div{
     padding: 30px 0;
     font-size: 12px;
     color: gray;
+}
+
+.select-language:hover{
+    cursor: pointer;
+}
+
+.fa-earth-europe{
+    padding-right: 5px;
+}
+
+.fa-chevron-up{
+    padding-left: 5px;
 }
