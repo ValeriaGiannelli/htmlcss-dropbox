@@ -246,6 +246,24 @@ h1{
     gap: 10px;
 }
 
+/* NUOVO TIPO DI LISTA */
+.change-icon-list{
+    margin-top: 40px;
+}
+
+.change-icon-list li{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.change-icon-list i{
+    margin-top: 3px;
+}
+
+.change-icon-list div{
+    padding-left: 5px;
+}
+/* FINE NUOVO TIPO DI LISTA */
 
 .card-button{
     text-align: center;
