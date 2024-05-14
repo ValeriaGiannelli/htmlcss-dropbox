@@ -549,11 +549,22 @@ footer>div{
 .col{
     width: 18%;
     padding: 40px 0;
+    margin-top: 40px;
 }
 
-.ul-footer{
+.col ul{
     margin: 0; 
     color: white;
+}
+
+.col ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.col li{
+    margin-bottom: 10px;
 }
 
 .ul-footer a{
